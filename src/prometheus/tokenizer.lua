@@ -209,7 +209,7 @@ local function expect(self, charOrLookup)
 	return char;
 end
 
--- Returns wether the n'th char is in the lookup
+-- Returns whether the n'th char is in the lookup
 local function is(self, charOrLookup, n)
 	local char = peek(self, n);
 	if(type(charOrLookup) == "string") then
